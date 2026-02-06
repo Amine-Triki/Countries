@@ -10,12 +10,12 @@ const Nav = () => {
       className="flex items-center space-x-3 rtl:space-x-reverse"
     >
       <img
-        src="https://flowbite.com/docs/images/logo.svg"
+        src="app/welcome/logo-light.svg"
         className="h-7"
-        alt="Flowbite Logo"
+        alt=" Logo"
       />
       <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">
-        Flowbite
+        react
       </span>
     </Link>
     <button
