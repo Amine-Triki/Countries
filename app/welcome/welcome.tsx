@@ -27,6 +27,9 @@ export default function Welcome() {
   const filteredCountries = useMemo(() => {
     let result = [...countries];
 
+    // Exclude Israel
+    result = result.filter((c) => c.name.common !== "Israel");
+
     // Search filter
     if (searchInput.trim()) {
       const search = searchInput.toLowerCase();
